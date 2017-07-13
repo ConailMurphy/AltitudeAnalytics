@@ -4,9 +4,11 @@ from itertools import groupby
 from operator import itemgetter
 import sys
 
-def read_mapper_output(file, separator='\t'):
-    for line in file:
+
+def read_mapper_output(filename, separator='\t'):
+    for line in filename:
         yield line.rstrip().split(separator, 1)
+
 
 def main(separator='\t'):
     data = read_mapper_output(sys.stdin, separator=separator)
