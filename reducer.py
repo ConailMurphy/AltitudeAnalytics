@@ -5,8 +5,8 @@ from operator import itemgetter
 import boto3
 import sys
 
-AWS_ACCESS_KEY_ID = "AKIAIQWIVEDREFE6BURA"
-AWS_SECRET_ACCESS_KEY = "t9bq0jkefSMt7Oa0uRJzEHEjvPtz7zyZ3QtD0zMS"
+AWS_ACCESS_KEY_ID = ""
+AWS_SECRET_ACCESS_KEY = ""
 bucket = "common-crawl-extracted-urls"
 filename = "sample1.txt"
 
